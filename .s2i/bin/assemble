@@ -25,7 +25,7 @@ echo "---> Installing application source..."
 cp -Rf /tmp/src/. ./
 
 echo "test" > test.html
-echo $(date "+%F"P > test.html
+echo $(date "+%F") >> test.html
 
 echo "---> Building application from source..."
 # TODO: Add build steps for your application, eg npm install, bundle install, pip install, etc.
